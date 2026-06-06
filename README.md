@@ -1,48 +1,42 @@
 # AI Security Log Analyzer
-The tool analyzes firewall, SIEM, and CloudTrail logs to detect threats such as SQL injection, brute force attacks, port scans, and ransomware indicators. It provides summarized threat reports with severity ratings and remediation recommendations.
 
-**AI-Powered Threat Detection Tool** built as part of my journey combining Cybersecurity and Generative AI.
+**AI-Powered Threat Detection Tool**  
+Built as part of my Cybersecurity + Generative AI learning journey.
 
-![Demo Screenshot](aisecurity.jpg)  
+![AI Security Log Analyzer Demo](demo-screenshot.png)
 
 ## Overview
 
-This tool analyzes security logs (firewall, SIEM, CloudTrail, etc.) using Generative AI and returns:
-- Clear summary of suspicious activities
-- Identified threats with severity ratings (High/Medium/Low)
-- Recommended immediate actions and long-term prevention steps
+This web application analyzes security logs (firewall, SIEM, AWS CloudTrail, etc.) using Generative AI and delivers clear, actionable threat intelligence.
 
-## Features
-
-- Upload log files or use sample data
-- Powered by Groq + Llama 3.3 (fast inference)
-- Clean, easy-to-read threat analysis
-- Built with Python + Streamlit
+**Key Capabilities:**
+- Detects threats such as SQL injection, brute force attacks, port scans, webshell uploads, and ransomware indicators
+- Provides severity ratings (High/Medium/Low)
+- Gives immediate remediation steps and long-term prevention advice
 
 ## Technologies Used
 
-- **Python**
-- **Streamlit** (web interface)
-- **LangChain**
-- **Groq API** (Llama 3.3-70B)
-- **dotenv** (environment variables)
+- Python + Streamlit
+- LangChain
+- Groq (Llama 3.3-70B)
+- dotenv
 
 ## How to Run Locally
 
-1. Clone the repository:
+1. Clone the repo:
    ```bash
    git clone https://github.com/ovogod/ai-security-log-analyzer.git
    cd ai-security-log-analyzer
    
-2. python -m venv venv
-venv\Scripts\activate     # Windows
+2. Install dependencies: 
 pip install -r requirements.txt
 
-3. Add your Groq API key:
+3. Add your Groq API key (create .env file):
 Copy .env.example to .env
 Add your key: GROQ_API_KEY=your_key_here
 
-4. streamlit run app.py
+4. Run the app:
+streamlit run app.py
 
 Project Purpose
 This project demonstrates practical application of Generative AI in Cybersecurity — specifically AI-Enhanced Threat Detection. It supports my professional development in cloud security and AI.
