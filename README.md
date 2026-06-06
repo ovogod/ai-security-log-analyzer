@@ -34,3 +34,26 @@ This tool analyzes security logs (firewall, SIEM, CloudTrail, etc.) using Genera
    ```bash
    git clone https://github.com/ovogod/ai-security-log-analyzer.git
    cd ai-security-log-analyzer
+   
+2. python -m venv venv
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+
+3. Add your Groq API key:
+Copy .env.example to .env
+Add your key: GROQ_API_KEY=your_key_here
+
+4. streamlit run app.py
+
+Project Purpose
+This project demonstrates practical application of Generative AI in Cybersecurity — specifically AI-Enhanced Threat Detection. It supports my professional development in cloud security and AI.
+Future Improvements
+
+PDF report export
+Support for more log formats (Windows Event Logs, AWS CloudTrail JSON)
+Multiple AI model options
+Deployment to Streamlit Cloud / Hugging Face
+
+
+Created by Mckenzie Elie
+Cybersecurity & Cloud Security Professional | AI-Enhanced Threat Detection
