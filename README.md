@@ -3,8 +3,7 @@ The tool analyzes firewall, SIEM, and CloudTrail logs to detect threats such as 
 
 **AI-Powered Threat Detection Tool** built as part of my journey combining Cybersecurity and Generative AI.
 
-![Demo Screenshot](screenshot-analysis.png)  
-*(Add your best screenshot here after uploading it)*
+![Demo Screenshot](aisecurity.jpg)  
 
 ## Overview
 
