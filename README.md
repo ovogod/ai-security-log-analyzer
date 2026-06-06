@@ -3,7 +3,7 @@
 **AI-Powered Threat Detection Tool**  
 Built as part of my Cybersecurity + Generative AI learning journey.
 
-![AI Security Log Analyzer Demo](demo-screenshot.png)
+<image-card alt="AI Security Log Analyzer Demo" src="aisecurity.jpg" ></image-card>
 
 ## Overview
 
